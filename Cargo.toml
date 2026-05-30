@@ -1,0 +1,9 @@
+[package]
+name = "fibonacci-growth-v2"
+version = "0.1.0"
+edition = "2021"
+description = "Fibonacci dynamics — Penrose inflation outward, Mandelbrot roughness inward, golden attractor"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
